@@ -23,7 +23,27 @@ The user draws a digit on the canvas, and the trained deep learning model predic
 5. The model returns a prediction with probabilities for each digit.  
 
 ---
+## AI Model Architecture (CNN – Convolutional Neural Network)
+We use a **CNN** because it’s the most effective type of model for image recognition.
 
+### Typical CNN layers for MNIST:
+1. **Input Layer**
+    - Shape: (28x28x1) → the normalized image.
+2. **Convolutional Layers**
+    - Detect basic patterns (edges, lines, curves).
+    - Example: 32 filters of size 3x3.
+3. **Pooling Layers**
+    - Reduce image size while keeping important features.
+    - Example: MaxPooling (2x2).
+4. **Flatten Layer**
+    - Converts the 2D feature maps into a 1D vector.
+5. **Dense (Fully Connected) Layers**
+    - Classic neural network layers that combine the extracted features.
+    - Usually with **ReLU activation**.
+6. **Output Layer**
+    - 10 neurons (one for each digit: 0–9).
+    - Uses **Softmax activation** → returns probabilities that sum to 1.
+---
 ##  Tech Stack
 - **Frontend:** Vue.js, HTML5 Canvas, CSS3  
 - **Backend:** Node.js (Express) or Python Flask  
