@@ -56,6 +56,6 @@ c   d handwriting-digit-recognizer
 
 ## 📜 License
 
-This project is licensed under the MIT License – see the [LICENSE](main/LICENSE)
+This project is licensed under the MIT License – see the [LICENSE](blob/main/LICENSE)
  file for details.
 
