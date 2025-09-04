@@ -1,5 +1,7 @@
 # AI-Handwriting-Digit-Recognizer
-![Your Picture](https://github.com/Ahmad-Ali-Rafique/Handwritten-Digit-Recognition-MNIST/blob/main/MnistExamplesModified.png)
+<p align="center">
+  <img src="https://github.com/Ahmad-Ali-Rafique/Handwritten-Digit-Recognition-MNIST/blob/main/MnistExamplesModified.png" alt="mnist"/>
+</p>
 A web application that recognizes handwritten digits (0–9) using a deep learning model trained on the MNIST dataset. Users can draw a digit on the canvas, and the AI predicts the number in real time with confidence scores. Built with Vue.js, Node.js, and TensorFlow.
 
 
